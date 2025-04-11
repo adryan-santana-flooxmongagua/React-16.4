@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import First from './components/First';
-import GoodDay from './components/GoodDay';
+import BND from './components/Sunday';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<GoodDay nome="guilherme"/>);
+root.render(
+  <div>
+    <BND.BoaTarde nome="Ana" />
+    <BND.BoaNoite nome="Bia" />
+  </div>
+);
