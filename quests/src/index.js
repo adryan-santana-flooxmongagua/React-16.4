@@ -1,5 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-const element = <h1>react</h1>
-ReactDOM.render(element, document.getElementById('root'))
+import First from './components/First';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<First />);
